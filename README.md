@@ -28,4 +28,3 @@ Subjective assignments are uploaded to test/java folder for reference.
 	4. Performing filter operation through specified conditions, while booking a ticket on Cleartrip application, using the Stream API (java.util.stream)
 	5. Display the current time (By converting datetime objects to strings) parse dates and time in 2 different time zones (java.time.zone).
 	6. Implement Comparator interface and print the given strong in reverse order
->>>>>>> branch 'master' of https://github.com/AjinkyaEP/TopicWiseAssignment.git
