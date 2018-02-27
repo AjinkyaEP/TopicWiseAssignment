@@ -15,11 +15,12 @@ public class App implements Interface1, Interface2
     {
     	int option=0;
     	while(true) {
-        System.out.println("Please select the topic you want to check for Java and Java 8");
+        System.out.println("Please select the topic for Java and Java 8");
         System.out.println("1. Stack using Queues");
         System.out.println("2. OOPs Concept for Car Class");
         System.out.println("3. What are Java 8 releated changes for interfaces?");
         System.out.println("4. Lambda expression usage:Adding values/data in application popup");
+        System.out.println("5. Explore Java 8 features");
         System.out.println("Enter 6 to exit\n"); 
         Scanner sc=new Scanner(System.in);
         option=sc.nextInt();
@@ -56,7 +57,15 @@ public class App implements Interface1, Interface2
         			boolean checkNull=Interface2.isNull("");
         			System.out.println("String is null");
     				break;
-    		
+        	
+        	case 4:	LambdaExpression exp=new LambdaExpression();
+        			exp.addValues();
+        			break;
+        	
+        	case 5:	Java8Features features=new Java8Features();
+					features.selectFeature();
+					break;
+        			
         	case 6: System.exit(0);
 					break;
 					
