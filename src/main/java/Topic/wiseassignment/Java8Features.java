@@ -1,3 +1,8 @@
+/************************************************************************
+TITLE:- ASSIGNMENT ON JAVA 8 FEATURE
+AUTHOR:- AJINKYA
+DATE:-26/02/2018
+*************************************************************************/
 package Topic.wiseassignment;
 
 import java.text.ParseException;
@@ -53,6 +58,7 @@ public class Java8Features {
 	        }
 	    } 	
 	}
+	//Implement for each method in Java
 	public void forEachDemo()
 	{
 		List<String> list=new ArrayList<String>();  

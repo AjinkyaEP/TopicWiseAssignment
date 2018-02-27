@@ -1,3 +1,8 @@
+/************************************************************************
+TITLE:- Display current time in two different time zone
+AUTHOR:- AJINKYA
+DATE:-26/02/2018
+*************************************************************************/
 package Topic.wiseassignment;
 
 import java.text.DateFormat;

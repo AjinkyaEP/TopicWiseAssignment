@@ -1,3 +1,8 @@
+/************************************************************************
+TITLE:- Implementation of Default Interface and Static Interface 
+AUTHOR:- AJINKYA
+DATE:-26/02/2018
+*************************************************************************/
 package Topic.wiseassignment;
 
 public interface Interface2 

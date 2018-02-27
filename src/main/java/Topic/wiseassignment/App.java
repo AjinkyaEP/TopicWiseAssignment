@@ -15,6 +15,7 @@ public class App implements Interface1, Interface2
     {
     	int option=0;
     	while(true) {
+    		//Display Menu	
         System.out.println("Please select the topic for Java and Java 8");
         System.out.println("1. Stack using Queues");
         System.out.println("2. OOPs Concept for Car Class");
@@ -27,12 +28,14 @@ public class App implements Interface1, Interface2
         
         switch(option)
         {
-        	case 1:	System.out.println("Implementing Stack using Queues");
+        	case 1:	//Implement Stack concept using Queues
+        			System.out.println("Implementing Stack using Queues");
         			StackUsingQueues SQ=new StackUsingQueues();
         			SQ.implement();
         			break;
         			
-        	case 2: System.out.println("OOPS Concept for Car class");
+        	case 2: //OOPs concept for Car class
+        			System.out.println("OOPS Concept for Car class");
         			//INHERITANCE
         			Car car=new Car();
         			
@@ -49,7 +52,8 @@ public class App implements Interface1, Interface2
         			System.out.println("\nPOLYMORPHISM\nAbove is an example of Polymorphism since above object ANOTHER CAR is morphed to Car type from Vehicle");
     				break;
     				
-        	case 3: System.out.println("There are mainly two changes related to Java 8 in Interfaces");
+        	case 3: //Interace changes related to Java 8
+        			System.out.println("There are mainly two changes related to Java 8 in Interfaces");
         			System.out.println("This include\n1.Introduction of Default Interface\n2.Introduction of Static Interface");
         			App app=new App();
         			app.log("Default Method from Interface");
@@ -58,11 +62,13 @@ public class App implements Interface1, Interface2
         			System.out.println("String is null");
     				break;
         	
-        	case 4:	LambdaExpression exp=new LambdaExpression();
+        	case 4:	//Implement Lambda Expression
+        			LambdaExpression exp=new LambdaExpression();
         			exp.addValues();
         			break;
         	
-        	case 5:	Java8Features features=new Java8Features();
+        	case 5:	//Implement Java 8 features
+        			Java8Features features=new Java8Features();
 					features.selectFeature();
 					break;
         			
