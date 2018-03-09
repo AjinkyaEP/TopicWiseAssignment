@@ -1,6 +1,5 @@
 # TopicWiseAssignment
 	
-	```
 This repository consists of all the Topic wise assignment.
 Subjective assignments are uploaded to test/java folder for reference.
 

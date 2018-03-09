@@ -1,6 +1,6 @@
 /************************************************************************
 TITLE:- ASSIGNMENT ON JAVA 8 FEATURE
-AUTHOR:- AJINKYA
+AUTHOR:- AJINKYA CHUDIWAL
 DATE:-26/02/2018
 *************************************************************************/
 package org.java;
@@ -63,7 +63,9 @@ public class Java8Features
 	        			if (check)
 	        				System.out.println("Value is true");
 	        			
-	        	case 5:	
+	        	case 5:	StringReverse stringToRev=new StringReverse();
+	        			System.out.println("Given String is \"Ajinkya\"");
+	        			System.out.println("Reverse String is :"+stringToRev.reverse("Ajinkya"));	        			
         				break;
 	        			
 	        	case 6:	
