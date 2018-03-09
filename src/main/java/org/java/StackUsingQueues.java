@@ -20,7 +20,7 @@ FOR PUSH:
 FOR POP:-
 		If queue is empty throw the exception else print the queue
 *******************************************************************************************************************************/
-package Topic.wiseassignment;
+package org.java;
 
 import java.util.Iterator;
 import java.util.LinkedList;

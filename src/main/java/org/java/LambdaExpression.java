@@ -1,4 +1,4 @@
-package Topic.wiseassignment;
+package org.java;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

@@ -1,4 +1,4 @@
-package Topic.wiseassignment;
+package org.java;
 
 public interface Interface1 
 {

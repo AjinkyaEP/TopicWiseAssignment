@@ -3,12 +3,14 @@ TITLE:- ASSIGNMENT ON JAVA 8 FEATURE
 AUTHOR:- AJINKYA
 DATE:-26/02/2018
 *************************************************************************/
-package Topic.wiseassignment;
+package org.java;
 
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import Topic.wiseassignment.App;
 
 
 public class Java8Features
@@ -24,7 +26,8 @@ public class Java8Features
 	        System.out.println("2. Multiple Inheritance in classes using Interface");
 	        System.out.println("3. Display current time in two different time zone");
 	        System.out.println("4. Usage of :: method reference operator");
-	        System.out.println("Enter 4 to exit\n"); 
+	        System.out.println("5. Implement Comparator interface and print the given string in reverse order");
+	        System.out.println("Enter 6 to exit\n"); 
 	        Scanner sc=new Scanner(System.in);
 	        option=sc.nextInt();
 	        
@@ -61,6 +64,9 @@ public class Java8Features
 	        				System.out.println("Value is true");
 	        			
 	        	case 5:	
+        				break;
+	        			
+	        	case 6:	
 	        			System.exit(0);
     					break;
     					

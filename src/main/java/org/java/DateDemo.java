@@ -3,7 +3,7 @@ TITLE:- Display current time in two different time zone
 AUTHOR:- AJINKYA
 DATE:-26/02/2018
 *************************************************************************/
-package Topic.wiseassignment;
+package org.java;
 
 import java.text.DateFormat;
 import java.text.ParseException;

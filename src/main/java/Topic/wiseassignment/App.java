@@ -6,8 +6,8 @@ DATE:-26/02/2018
 package Topic.wiseassignment;
 
 import java.util.Scanner;
+import org.java.*;
 
-import javax.annotation.Resource;
 
 public class App implements Interface1, Interface2
 {

@@ -3,7 +3,7 @@ TITLE:- THIS IS SUPER-CLASS TO CLASS CAR, IMPLEMENTED BASICALLY TO SHOW INHERITA
 AUTHOR:- AJINKYA
 DATE:-26/02/2018
 **************************************************************************************************/
-package Topic.wiseassignment;
+package org.java;
 
 public class Vehicle 
 {
