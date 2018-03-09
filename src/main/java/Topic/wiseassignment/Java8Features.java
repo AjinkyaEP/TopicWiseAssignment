@@ -10,7 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Java8Features {
+
+public class Java8Features
+{
 
 	public void selectFeature() 
 	{
@@ -21,6 +23,7 @@ public class Java8Features {
 	        System.out.println("1. forEachMethod() in Iterable interface");
 	        System.out.println("2. Multiple Inheritance in classes using Interface");
 	        System.out.println("3. Display current time in two different time zone");
+	        System.out.println("4. Usage of :: method reference operator");
 	        System.out.println("Enter 4 to exit\n"); 
 	        Scanner sc=new Scanner(System.in);
 	        option=sc.nextInt();
@@ -41,15 +44,23 @@ public class Java8Features {
 	        	case 3: 
 						System.out.println("Parsing current Date and Time");
 						DateDemo time=new DateDemo();
-				try {
-					time.displayTime();
-				} catch (ParseException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+						try 
+						{
+							time.displayTime();
+						} 
+						catch (ParseException e) 
+						{
+							e.printStackTrace();
+						}
 						break;
-    					
+    				
 	        	case 4:	
+	        			IsNull value=Java8Features::isNullString;
+	        			boolean check=value.isNull("Ajinkya");
+	        			if (check)
+	        				System.out.println("Value is true");
+	        			
+	        	case 5:	
 	        			System.exit(0);
     					break;
     					
@@ -72,4 +83,11 @@ public class Java8Features {
 	           (names)->System.out.println(names)         
 	       );     
 	}
+	public static boolean isNullString(String str) 
+	{
+		System.out.println("Interface Null Check");
+
+		return str == null ? true : "".equals(str) ? true : false;
+	}
+	
 }
