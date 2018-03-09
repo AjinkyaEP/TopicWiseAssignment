@@ -23,3 +23,13 @@ Subjective assignments are uploaded to test/java folder for reference.
 	2. Implementing multiple inheritance in Classes : Provide implementation logic in the class implementing the interfaces
 	3. Add reference to static method using Functional interface
 	4. Display the current time (By converting datetime objects to strings) parse dates and time in 2 different time zones (java.time.zone).
+	5. Usage of :: method reference operator.
+	6. Implement the Comparator Interface to reverse the String
+	
+	
+## Selenium
+* Implement wait in Selenium
+* Drag and Drop in Selenium
+* Capture screenshot in Selenium
+
+Note:- The topics which are not covered as part of TopicWise assignment are covered in use case assignment and are tracked in repository https://github.com/AjinkyaEP/BDDProject.git. 
