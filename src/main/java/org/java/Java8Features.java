@@ -59,16 +59,26 @@ public class Java8Features
     				
 	        	case 4:	
 	        			IsNull value=Java8Features::isNullString;
-	        			boolean check=value.isNull("Ajinkya");
+	        			System.out.println("Enter String value which needs to be checked :-");
+	        			Scanner getString=new Scanner(System.in);
+	        			String string=getString.nextLine();
+	        			boolean check=value.isNull(string);
 	        			if (check)
-	        				System.out.println("Value is true");
+	        				System.out.println("Value is null");
+	        			else
+	        				System.out.println("Value is not null");
+	        			break;
 	        			
 	        	case 5:	StringReverse stringToRev=new StringReverse();
-	        			System.out.println("Given String is \"Ajinkya\"");
-	        			System.out.println("Reverse String is :"+stringToRev.reverse("Ajinkya"));	        			
+	        			System.out.println("Enter the string you want to reverse :-");
+	        			Scanner getString1=new Scanner(System.in);
+	        			String string1=getString1.nextLine();
+	        			System.out.println("Given String is :"+string1);
+	        			System.out.println("Reverse String is :"+stringToRev.reverse(string1));	        			
         				break;
 	        			
 	        	case 6:	
+	        			System.out.println("Exiting the program");
 	        			System.exit(0);
     					break;
     					
